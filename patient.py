@@ -42,7 +42,7 @@ class Patient:
             self.__age = new_age
     
     def __str__(self):
-        return "Patient's ID: " +self.pid +' _ ' "Patient's Name: " +self.name +' _ ' "Patient's disease: " +self.disease +' _ ' "Patient's Gender: " +self.gender +' _ ' "Patient's Age: " +self.age +''
+        return self.pid +'_' +self.name +'_' +self.disease +'_'  +self.gender +'_' +self.age +''
 ########
 # This section is just to test the output
 patientlist = [Patient("2042", "Jack", "Ligma", "Male", "17")]
