@@ -44,7 +44,7 @@ class Doctor:
         
     def set_qualification(self, new_qualification):
         if not new_qualification.isdigit():
-            self.__qualification = new_qualificataion
+            self.__qualification = new_qualification
         
     def set_room_number(self, new_room_number):
         if new_room_number.isdigit():
