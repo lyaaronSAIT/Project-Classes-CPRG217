@@ -74,3 +74,7 @@ class Management:
             if user_choice_options == "3":
                 print("Thanks for using the program. Bye!")
                 break
+                
+management_system = Management()
+
+management_system.display_menu()  # Display
