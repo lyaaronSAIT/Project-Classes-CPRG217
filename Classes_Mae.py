@@ -1,3 +1,6 @@
+from doctor import Doctor
+
+
 class DoctorManager:
     def __init__(self):
         self.__doctors_list = [] #Empty list of doctors
