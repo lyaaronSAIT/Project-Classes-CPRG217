@@ -43,10 +43,5 @@ class Patient:
     
     def __str__(self):
         return self.pid +'_' +self.name +'_' +self.disease +'_'  +self.gender +'_' +self.age +''
-########
-# This section is just to test the output
-patientlist = [Patient("2042", "Jack", "Ligma", "Male", "17")]
 
-for Patient in patientlist:
-    print (Patient)
         
