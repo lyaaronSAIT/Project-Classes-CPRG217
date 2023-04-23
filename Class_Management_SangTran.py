@@ -1,10 +1,8 @@
 class Management:
 
     def display_menu(self):
-
-        print("Welcome to Alberta Hospital (AH) Management system ")
-
         while True:
+            print("Welcome to Alberta Hospital (AH) Management system ")
             print("Select from the following options, or select 3 to stop:")
             print("1 - Doctor")
             print("2 - Patients")
@@ -73,8 +71,9 @@ class Management:
 
             if user_choice_options == "3":
                 print("Thanks for using the program. Bye!")
+
                 break
-                
+
 management_system = Management()
 
 management_system.display_menu()  # Display
