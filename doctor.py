@@ -52,10 +52,3 @@ class Doctor:
                 
     def __str__(self):
         return  self.doctor_id + "_" +self.name + "_" +self.special +'_'  +self.working_time +'_'   +self.qualification +'_' +self.room_number +''
-########################
-# This section is just to test the output
-doctor1 = Doctor("2034", "Jack", "Medicine", "0600 to 1200", "Doctor", "1024")
-
-doctorlist = [Doctor("2035", "Dr.Sam", "Medicine", "0400-2400", "Doctor", "1025")]
-for Doctor in doctorlist:
-    print(Doctor)
