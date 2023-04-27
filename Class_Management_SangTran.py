@@ -1,3 +1,7 @@
+import Aaron_PatientManager
+import Classes_Mae
+
+
 class Management:
 
     def display_menu(self):
@@ -10,8 +14,8 @@ class Management:
 
             user_choice_options = input(">>> ")
 
-            doctor_manager = DoctorManager()
-            patient_manager = PatientManager()
+            doctor_manager = Classes_Mae.DoctorManager()
+            patient_manager = Aaron_PatientManager.PatientManager()
 
             if user_choice_options == "1":
                 while True:
