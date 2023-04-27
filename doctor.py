@@ -44,11 +44,18 @@ class Doctor:
         
     def set_qualification(self, new_qualification):
         if not new_qualification.isdigit():
-            self.__qualification = new_qualification
+            self.__qualification = new_qualificataion
         
     def set_room_number(self, new_room_number):
         if new_room_number.isdigit():
             self.__room_number = new_room_number
                 
     def __str__(self):
-        return  self.doctor_id + "_" +self.name + "_" +self.special +'_'  +self.working_time +'_'   +self.qualification +'_' +self.room_number +''
+        return "Doctor's ID: " +self.doctor_id + " _ " "Doctor's name: " +self.name + " _ " "Doctor's Specialization: " +self.special +' _ ' "Doctor's Working Time: " +self.working_time +' _ ' "Doctor's Qualification: " +self.qualification +' _ ' "Doctor's Room Number: " +self.room_number +''
+########################
+# This section is just to test the output
+doctor1 = Doctor("2034", "Jack", "Medicine", "0600 to 1200", "Doctor", "1024")
+
+doctorlist = [Doctor("2035", "Sam", "Medicine", "0400 to 2400", "Doctor", "1025")]
+for Doctor in doctorlist:
+    print(Doctor)
